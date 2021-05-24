@@ -16,5 +16,17 @@ namespace Degiskenler_String
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            string metin;
+            metin = "Merhaba bugün 24.05.2021";
+            label1.Text = metin;
+            
+
+           
+
+        }
     }
 }
