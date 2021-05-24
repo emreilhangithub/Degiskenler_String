@@ -19,13 +19,17 @@ namespace Degiskenler_String
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             
-            string metin;
-            metin = "Merhaba bugün 24.05.2021";
-            label1.Text = metin;
+            string adsoyad, meslek;
+            adsoyad = "Mustafa Emre İlhan";
+            meslek = "Yazılımcı";
+            label1.Text = adsoyad;
+            label2.Text = meslek;
             
 
-           
+
+
 
         }
     }
