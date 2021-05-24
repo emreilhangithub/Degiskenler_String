@@ -20,17 +20,25 @@ namespace Degiskenler_String
         private void button1_Click(object sender, EventArgs e)
         {
 
-            
-            string adsoyad, meslek;
-            adsoyad = "Mustafa Emre İlhan";
-            meslek = "Yazılımcı";
-            label1.Text = adsoyad;
-            label2.Text = meslek;
-            
+            string sehir;
+            sehir = textBox1.Text;
+            label1.Text = sehir;
 
 
 
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string ad, soyad, yas, meslek, cinsiyet;
+            ad = textBox2.Text;
+            soyad = textBox3.Text;
+            yas = maskedTextBox1.Text;
+            meslek = textBox4.Text;
+            cinsiyet = textBox5.Text;
+
+            listBox1.Items.Add(ad +" " + soyad + " " + yas + " " + meslek + " " + cinsiyet);
         }
     }
 }
